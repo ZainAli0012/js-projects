@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+#heading {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+
+/* Add Product */
+
+#add-product {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#product-name {
+    padding: 8px;
+    width: 35%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#product-price {
+    padding: 8px;
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#add-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Store */
+
+#store {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+#product {
+    display: flex;
+    gap: 8px;
+    width: 65%;
+}
+
+
+/* Product 1 */
+
+#product1 {
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+
+/* Product 2 */
+
+#product2 {
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+
+/* Product Boxes */
+
+#product-box1 {
+    height: 90px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#product-box2 {
+    height: 90px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#product-box1 {
+    background-color: lightblue;
+}
+
+#product-box2 {
+    background-color: lavender;
+}
+
+
+/* Product Names */
+
+#product-name1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#product-name2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+/* Product Prices */
+
+#product-price1 {
+    font-size: 12px;
+    color: blue;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+#product-price2 {
+    font-size: 12px;
+    color: blue;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+
+/* Cart */
+
+#card {
+    width: 35%;
+    background-color: navy;
+    border-radius: 6px;
+    padding: 14px;
+    color: white;
+}
+
+#title {
+    font-size: 9px;
+    margin-bottom: 18px;
+}
+
+#items {
+    font-size: 8px;
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+#total {
+    display: block;
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+#price {
+    font-size: 15px;
+    color: cyan;
+}

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(244, 247, 251);
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+.container {
+    width: 750px;
+
+    background: rgb(255, 255, 255);
+
+    padding: 30px 40px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+    border: 1px solid rgb(225, 232, 237);
+}
+
+
+.container h2 {
+    font-size: 22px;
+
+    color: rgb(17, 24, 39);
+
+    margin-bottom: 24px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+
+.form p {
+    margin-top: 10px;
+}
+
+
+.form label {
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: rgb(75, 85, 99);
+}
+
+
+.container .form input {
+    padding: 10px 14px;
+
+    width: 100%;
+
+    border: 1px solid rgb(209, 213, 219);
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+
+.container .form input:focus {
+    border-color: rgb(37, 99, 235);
+}
+
+
+/* Method + Value + Button */
+
+.row {
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 15px;
+
+    margin-bottom: 24px;
+}
+
+
+.row .form {
+    flex: 1;
+}
+
+
+.row .form input {
+    padding: 10px 14px;
+
+    width: 100%;
+
+    border: 1px solid rgb(209, 213, 219);
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+
+#btn {
+    background-color: rgb(37, 99, 235);
+
+    color: rgb(255, 255, 255);
+
+    border: none;
+
+    padding: 10px 20px;
+
+    font-weight: 600;
+
+    font-size: 14px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    height: 41px;
+
+    white-space: nowrap;
+}
+
+
+#btn:hover {
+    background-color: rgb(29, 78, 216);
+}
+
+
+/* Output */
+
+.output {
+    background-color: rgb(15, 23, 42);
+
+    color: rgb(255, 255, 255);
+
+    padding: 20px 24px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+}
+
+
+.output p {
+    color: rgb(203, 213, 225);
+}
+
+
+.result {
+    margin-top: 5px;
+
+    color: rgb(56, 189, 248);
+
+    font-weight: bold;
+}
+
+
+#value {
+    color: rgb(56, 189, 248);
+}

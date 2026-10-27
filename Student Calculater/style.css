@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: auto100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 80%;
+    background: white;
+    padding: 30px;
+    
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+
+#main {
+    display: flex;
+    gap: 30px;
+}
+
+#subjects {
+    width: 20%;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+#subjects label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: black;
+}
+
+#subjects input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#result-box {
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+    padding: 25px;
+    background: skyblue;
+    border-radius: 10px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#percentage {
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+#grade {
+    font-size: 18px;
+    color: green;
+    margin-bottom: 30px;
+}
+
+#btn {
+    width: 110px;
+    padding: 6px 22px 9px 3px;
+    border: none;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: darkblue;
+}
+
+#btn1 {
+    width: 110px;
+    padding: 6px 22px 9px 3px;
+    border: none;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background: darkred;
+}

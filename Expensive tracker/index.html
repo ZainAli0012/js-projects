@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <h2>Expense Tracker</h2>
+
+    <div id="section">
+        <input type="date" id="data">
+        <input type="text" id="desc" placeholder="Description">
+        <input type="number" id="price" placeholder="Price">
+        <button id="addBtn">Add</button>
+    </div>
+
+    <div id="section-2">
+        <div class="card">
+            <h4>BALANCE</h4>
+            <p id="Balance">AED 2,850</p>
+        </div>
+        <div class="card">
+            <h4>INCOME</h4>
+            <p id="Income">AED 5,200</p>
+        </div>
+        <div class="card">
+            <h4>EXPENSE</h4>
+            <p id="Expense">AED 2,350</p>
+        </div>
+    </div>
+
+    <ul id="transactionList">
+        <li class="transaction-item">
+            <span>Salary
+                
+            </span>
+            <span style="color: #10b981;">+ 5,200</span>
+        </li>
+        <li class="transaction-item">
+            <span>Rent</span>
+            <span style="color: #ef4444;">- 1,600</span>
+        </li>
+        <li class="transaction-item">
+            <span>Groceries</span>
+            <span style="color: #ef4444;">- 420</span>
+        </li>
+    </ul>
+</div>
+
+<script src="task.js"></script>
+
+</body>
+</html>
